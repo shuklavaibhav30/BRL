@@ -46,7 +46,7 @@ body {
     margin-left: 20px;
 }
 
-/* ===== HERO SECTION ===== */
+
 .hero {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -102,7 +102,7 @@ body {
     cursor: pointer;
 }
 
-/* Right cards */
+
 .hero-right {
     display: flex;
     flex-direction: column;
@@ -216,13 +216,20 @@ section {
     flex-wrap: wrap;
     gap: 10px;
     margin-bottom: 30px;
+    cursor: pointer;
 }
 
 .color {
-    border: 1px solid #ccc;
+    border: 1px solid black;
     border-radius: 20px;
     padding: 6px 14px;
     font-size: 14px;
+    transition: width 2s;
+    color: white;
+}
+.color:hover
+{
+    width: 200px;
 }
 
 .testimonial {
@@ -330,6 +337,7 @@ section {
     padding: 40px 80px;
     background-color: #111;
     border-top: 1px solid #222;
+    margin-top: 40px;
 }
 .footer-left {
     max-width: 300px;
