@@ -54,8 +54,12 @@ body
 }
 
 
+<<<<<<< HEAD
 .hero 
 {
+=======
+.hero {
+>>>>>>> 3664df3e0a271458482c5df08d40644062bc53fa
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 1.25rem;
@@ -117,8 +121,12 @@ body
 }
 
 
+<<<<<<< HEAD
 .hero-right 
 {
+=======
+.hero-right {
+>>>>>>> 3664df3e0a271458482c5df08d40644062bc53fa
     display: flex;
     flex-direction: column;
     gap: 1.25rem;
@@ -301,6 +309,7 @@ section
 {
     display: flex;
     flex-wrap: wrap;
+<<<<<<< HEAD
     gap: 0.625rem;
     margin-bottom: 1.8rem;
     cursor: pointer;
@@ -312,13 +321,29 @@ section
     border-radius: 1.25rem;
     padding: 0.375rem 0.875rem;
     font-size: 1rem;
+=======
+    gap: 10px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.color {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 6px 14px;
+    font-size: 14px;
+>>>>>>> 3664df3e0a271458482c5df08d40644062bc53fa
     transition: width 2s;
     color: white;
 }
 .color:hover
 {
+<<<<<<< HEAD
     width: 11rem;
     
+=======
+    width: 200px;
+>>>>>>> 3664df3e0a271458482c5df08d40644062bc53fa
 }
 
 .testimonial 
@@ -453,7 +478,11 @@ section
     padding: 2.5rem 5rem;
     background-color: #111;
     border-top: 1px solid #222;
+<<<<<<< HEAD
     margin-top: 2.5rem;
+=======
+    margin-top: 40px;
+>>>>>>> 3664df3e0a271458482c5df08d40644062bc53fa
 }
 .footer-left 
 {
