@@ -615,6 +615,7 @@ section
     {
         grid-template-columns: repeat(2, 1fr); 
     }
+<<<<<<< HEAD
     .product-grid .product-card 
     {
         grid-column: unset !important;
@@ -624,6 +625,8 @@ section
     {
         text-align: center;
     }
+=======
+>>>>>>> 18dfd26f75f56b44701bf162adf55e97ff633128
     .testimonial 
     {
         padding: 2.5rem 1.25rem;
