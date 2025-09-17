@@ -115,6 +115,11 @@ body
     font-size: 1rem;
     cursor: pointer;
 }
+.hero-button:hover
+{
+    background-color: white;
+    color: black;
+}
 
 
 .hero-right 
@@ -201,7 +206,9 @@ section
 
 .category-buttons 
 {
+    text-align: right;
     margin-bottom: 1.25rem;
+    
 }
 
 .category-buttons button 
@@ -288,7 +295,7 @@ section
 .product-grid .product-card:nth-of-type(5) 
 {
     grid-column: 3 / 4;
-    grid-row: 2 / 4;
+    grid-row: 2 / 3;
 }
 
 .product-grid .product-card:nth-of-type(6)
@@ -301,19 +308,26 @@ section
 {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.625rem;
+    justify-content: center;
+    
+    gap: 1rem;
     margin-bottom: 1.8rem;
     cursor: pointer;
 }
 
-.color 
-{
-    border: 1px solid black;
-    border-radius: 1.25rem;
-    padding: 0.375rem 0.875rem;
-    font-size: 1rem;
-    transition: width 2s;
+.color {
+    border: 2px solid black;
+    border-radius: 50%;       
+    width: 5rem;              
+    height: 5rem;             
+    font-size: 0.8rem;        
     color: white;
+    display: flex;            
+    align-items: center;
+    font-weight: bold;
+    justify-content: center;
+    cursor: pointer;
+    text-align: center;
 }
 .color:hover
 {
@@ -509,7 +523,8 @@ section
 
 .subscribe button:hover 
 {
-    background-color: grey;
+    background-color: black;
+    color: white;
 }
 
 .footer-right 
@@ -604,6 +619,10 @@ section
     {
         grid-column: unset !important;
         grid-row: unset !important;
+    }
+    .category-buttons
+    {
+        text-align: center;
     }
     .testimonial 
     {
